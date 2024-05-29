@@ -7,3 +7,48 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+main {
+    background-color: black;
+    padding: 100px 0 30px 0;
+}
+
+.container_main {
+    max-width: 1800px;
+    margin: 0 auto;
+    padding-top: 100px;
+    height: 1200px;
+    border: 1px solid white;
+}
+
+footer {
+    height: 100px;
+    background-color: rgb(211, 134, 19);
+}
+
+.col-14 {
+    width: calc(100% / 7);
+}
+
+.content {
+    border: 1px solid white;
+    background-color: red;
+    height: 200px;
+    margin: 5px;
+
+}
+
+.col-33 {
+    width: calc(100%/3);
+}
+
+.content_footer {
+    border: 1px solid white;
+    background-color: red;
+    height: 100px;
+}
