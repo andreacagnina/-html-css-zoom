@@ -12,12 +12,17 @@ body {
 
 /* ---------------------------------------------- */
 
+header {
+    height: 100px;
+    background-color: black;
+    position: relative;
+
+}
 
 main {
     background-color: black;
-    padding: 100px 0 30px 0;
-    position: relative;
-    height: calc(100vh - 87px);
+    padding: 10px 0 30px 0;
+    height: calc(100vh - 186px);
     overflow-y: auto;
 }
 
@@ -79,16 +84,16 @@ main {
 }
 
 .col-20 {
-    width: calc(100%/3);
+    width: 20%
 }
 
-/* .col-10 {
-    width: 10%;
+.col-15 {
+    width: 15%;
 }
 
-.col-60 {
-    width: 60%;
-} */
+.col-65 {
+    width: 65%;
+}
 
 .content img {
     width: 100%;
@@ -137,4 +142,18 @@ h5 {
 
 .p-t-20 {
     padding-top: 20px;
+}
+
+.justify-ce {
+    justify-content: center;
+}
+
+
+
+.text-right {
+    text-align: right;
+}
+
+.p-10 {
+    padding: 10px 0;
 }
